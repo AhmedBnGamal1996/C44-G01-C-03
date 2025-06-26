@@ -348,28 +348,28 @@ namespace SessionThree
              * ==> 10% tax applied  
              * ==> Final salary after tax 
              */
-            //dsdads
-            Console.WriteLine("Enter your Salary : ");  //dfd
-            double salary; 
-            bool isSalary = double.TryParse(Console.ReadLine(), out salary);
-            if (isSalary is true && salary < 5000)
-            {
-                Console.WriteLine("No Tax For Your Salary ." );
-            }
-            else if (isSalary is true && salary >= 5000 && salary <= 9999)
-            {
-                salary = salary * 0.1;
-                Console.WriteLine($"your Salary is {salary} , 10% tax ");
-            }
-            else if (isSalary is true && salary >=10000 )
-            {
-                salary = salary * 0.2;
-                Console.WriteLine($"your Salary is {salary} , 20% tax ");
-            }
-            else        // refer put For Loob here Enter Again 
-            {
-                Console.WriteLine("Try Enter Your Salary Again ");
-            }
+
+            //Console.WriteLine("Enter your Salary : ");  
+            //double salary; 
+            //bool isSalary = double.TryParse(Console.ReadLine(), out salary);
+            //if (isSalary is true && salary < 5000)
+            //{
+            //    Console.WriteLine("No Tax For Your Salary ." );
+            //}
+            //else if (isSalary is true && salary >= 5000 && salary <= 9999)
+            //{
+            //    salary = salary * 0.1;
+            //    Console.WriteLine($"your Salary is {salary} , 10% tax ");
+            //}
+            //else if (isSalary is true && salary >=10000 )
+            //{
+            //    salary = salary * 0.2;
+            //    Console.WriteLine($"your Salary is {salary} , 20% tax ");
+            //}
+            //else        // refer put For Loob here Enter Again 
+            //{
+            //    Console.WriteLine("Try Enter Your Salary Again ");
+            //}
 
 
 
@@ -377,7 +377,27 @@ namespace SessionThree
 
             #region 1-Write a program that allows the user to enter a number then print it.
 
+            //Console.WriteLine("Enter Any Number");
+            //int number; 
+            //bool isNumber = int.TryParse(Console.ReadLine() , out number);
+            //Console.Clear(); 
+            //if (number.GetType() == typeof(int))
+            //{
+            //    Console.WriteLine($"Your Number is {number} ");
+            //}
+
+            //else
+            //{
+            //    Console.WriteLine("Enter Agian");
+            //}
+
+
+
+
             #endregion
+
+
+
 
             #region 2- Write C# program that converts a string to an integer, but the string contains non-numeric characters. And mention what will happen 
 
