@@ -396,32 +396,50 @@ namespace SessionThree
 
 
             #region 2- Write C# program that converts a string to an integer, but the string contains non-numeric characters. And mention what will happen 
-                //Console.WriteLine("enter any number : ");
-                //string numberString = Console.ReadLine();
+            //Console.WriteLine("enter any number : ");
+            //string numberString = Console.ReadLine();
 
-                //checked
-                //{
-                //int number ; 
-                //   bool isConvertNumber = int.TryParse(numberString, out number);
-                //    if (isConvertNumber is true)            ///Can not Convert String to int 
-                //    {
-                //        Console.WriteLine(number);
-                //    }
-                //    else
-                //    {
-                //        Console.WriteLine("this is propblem .");
-                //    }
-                //}
+            //checked
+            //{
+            //int number ; 
+            //   bool isConvertNumber = int.TryParse(numberString, out number);
+            //    if (isConvertNumber is true)            ///Can not Convert String to int 
+            //    {
+            //        Console.WriteLine(number);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("this is propblem .");
+            //    }
+            //}
 
             #endregion
 
             #region 3-Write C# program that Perform a simple arithmetic operation with floating-point numbers And mention what will happen
+            //float num1 = 10 , num2 = 20  , result = num1*num2 ;
+            //Console.WriteLine(result);        // result = 200
 
-            #endregion
+                #endregion
 
-            #region 4-Write C# program that Extract a substring from a given string.
+                #region 4-Write C# program that Extract a substring from a given string.
+            //Console.WriteLine("Please write any text");  // hello my friend
+            //string sourceString = Console.ReadLine();
+            //Console.WriteLine("Please write text search");
+            //string data = Console.ReadLine();               // hello
+            //Console.Clear(); 
+            //int startIndex = sourceString.IndexOf(data);
+            //if (startIndex != -1)
+            //{
+            //    string subString = sourceString.Substring(startIndex, data.Length);
+            //    Console.WriteLine($"your seach is found : {subString}");                // hello
+            //}
+            //else {
+            //    Console.WriteLine("please try agian another text");
+            //}
 
-            #endregion
+
+
+                #endregion
 
             #region 5-Write C# program that Assigning one value type variable to another and modifying the value of one variable and mention what will happen
 
@@ -475,7 +493,7 @@ namespace SessionThree
 
 
 
-        }
+            }
     }
     }
 
