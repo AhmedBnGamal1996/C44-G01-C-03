@@ -416,7 +416,7 @@ namespace SessionThree
             #endregion
 
             #region 3-Write C# program that Perform a simple arithmetic operation with floating-point numbers And mention what will happen
-            //float num1 = 10 , num2 = 20  , result = num1*num2 ;
+            //float num1 = 10, num2 = 20, result = num1 * num2;
             //Console.WriteLine(result);        // result = 200
 
             #endregion
@@ -528,7 +528,7 @@ namespace SessionThree
             #endregion
 
             #region 11-What is the output of the following C# code?
-            
+
             // DateTime date = new DateTime(2024, 6, 14);
             //Console.WriteLine($"The event is on {date:MM/dd/yyyy}");
             // the output : The event is on 06/14/2024 
