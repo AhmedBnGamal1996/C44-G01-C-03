@@ -460,8 +460,17 @@ namespace SessionThree
             #endregion
 
             #region 8-Write a program that calculates the simple interest given the principal amount, rate of interest, and time. The formula for simple interest is Interest = (principal * rate * time) / 100.
+            //Console.Write("please write the principal amount : "); 
+            //double princibalAmount = double.Parse(Console.ReadLine());
+            //Console.Write("please write the rate of interest : ");
+            //double rateOfInterestbypercen = double.Parse(Console.ReadLine());
+            //double rateOfInterest = (rateOfInterestbypercen * 100 ) / 100 ;
 
-
+            //Console.Write("please write the time by days : ");
+            //double time = double.Parse(Console.ReadLine());
+            //Console.Clear();
+            //double interest = (princibalAmount * rateOfInterest * time) / 100 ;
+            //Console.WriteLine($"your interest : {interest} ");
             #endregion
 
             #region 9-Write a program that calculates the Body Mass Index (BMI) given a person's weight in kilograms and height in meters. The formula for BMI is BMI = (Weight) / (Height * Height)
@@ -499,7 +508,7 @@ namespace SessionThree
 
 
 
-            }
+        }
     }
     }
 
