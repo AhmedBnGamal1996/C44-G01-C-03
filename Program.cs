@@ -443,9 +443,40 @@ namespace SessionThree
 
             #region 5-Write C# program that Assigning one value type variable to another and modifying the value of one variable and mention what will happen
 
+            //int firstNumber = 100;
+            //int secondNumber = 200;
+
+            //firstNumber = secondNumber;
+
+
+            //Console.WriteLine(firstNumber);  // firstnumber = 200 
+
+            // Another Answer 
+
+            //double firstNumber = 100;
+            //float secondNumber = 100.5f;
+
+            //firstNumber = (double)secondNumber;
+
+            //Console.WriteLine(firstNumber);   
+
             #endregion
 
             #region 6-Write C# program that Assigning one reference type variable to another and modifying the object through one variable and mention what will happen
+            //Point number1 = new Point();
+            //number1.X = 100;
+
+
+            //Point number2 = new Point();
+            //number2.X = 200;
+
+            //number1.X = number2.Y;
+
+            //Console.WriteLine(number2.X);       // 200 
+
+
+
+
 
             #endregion
 
@@ -501,15 +532,15 @@ namespace SessionThree
             #endregion
 
             #region 12-Which of the following statements is correct about the C#.NET code snippet given below?
-                //int d; 
-                //d = Convert.ToInt32( !(30 < 20) );
-                //Console.WriteLine(d);           // A value 1 will be assigned to d  
-             
+            //int d; 
+            //d = Convert.ToInt32( !(30 < 20) );
+            //Console.WriteLine(d);           // A value 1 will be assigned to d  
+
             #endregion
 
             #region 13-Which of the following is the correct output for the C# code given below?
 
-          //  Console.WriteLine(13 / 2 + " " + 13 % 2);       // the Answer :  d) 6 1 
+            //  Console.WriteLine(13 / 2 + " " + 13 % 2);       // the Answer :  d) 6 1 
 
             #endregion
 
