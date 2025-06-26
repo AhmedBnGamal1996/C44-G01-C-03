@@ -508,7 +508,8 @@ namespace SessionThree
             #endregion
 
             #region 13-Which of the following is the correct output for the C# code given below?
-            /*Console.WriteLine(13 / 2 + " " + 13 % 2); */
+
+          //  Console.WriteLine(13 / 2 + " " + 13 % 2);       // the Answer :  d) 6 1 
 
             #endregion
 
