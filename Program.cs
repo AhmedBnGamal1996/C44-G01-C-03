@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.Design;
 using System.Diagnostics;
 using System.Drawing;
 using System.Globalization;
@@ -391,15 +392,26 @@ namespace SessionThree
             //    Console.WriteLine("Enter Agian");
             //}
 
-
-
-
             #endregion
 
 
-
-
             #region 2- Write C# program that converts a string to an integer, but the string contains non-numeric characters. And mention what will happen 
+                //Console.WriteLine("enter any number : ");
+                //string numberString = Console.ReadLine();
+
+                //checked
+                //{
+                //int number ; 
+                //   bool isConvertNumber = int.TryParse(numberString, out number);
+                //    if (isConvertNumber is true)            ///Can not Convert String to int 
+                //    {
+                //        Console.WriteLine(number);
+                //    }
+                //    else
+                //    {
+                //        Console.WriteLine("this is propblem .");
+                //    }
+                //}
 
             #endregion
 
