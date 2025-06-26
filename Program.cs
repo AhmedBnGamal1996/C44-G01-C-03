@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Drawing;
+using System.Globalization;
 
 namespace SessionThree
 {
@@ -122,7 +123,36 @@ namespace SessionThree
 
             #endregion
 
- 
+
+            #region Fraction & Discard Video
+            //12.35651214565487864556
+            //float number = 12.35651214565487864556f;
+            //Console.WriteLine(number);
+            //float number2 = 10;
+            //Console.WriteLine(number2);
+
+            ////decimal number = 123.4567m;
+            ////Console.WriteLine(number);
+            //decimal number = 10 ;
+            //Console.WriteLine(number);
+
+            //float result = 3.0F / 2;
+            //Console.WriteLine(result);
+
+            //double number = 12.3456;
+            //Console.WriteLine(number);
+
+            // Discard , Digit Seprator C# 7.0 Feature [ _  out for Parameter ]
+
+            //int number = 1000_000_000;
+            //Console.WriteLine(number);
+            //Console.WriteLine($"{number:c}");
+
+            //CultureInfo CultureInfo = new CultureInfo("ar-SA");
+            //Console.WriteLine(number.ToString(CultureInfo));
+
+            #endregion
+
 
         }
 
