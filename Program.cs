@@ -216,6 +216,30 @@ namespace SessionThree
             #endregion
 
 
+            #region Casting [ Convert  - Parse - TryParse ] 
+            // Ex : Enter Name , Age , Salary 
+            //Console.WriteLine("Please Enter Your data ...");
+            //Console.Write("Name : ");
+            //string name = Console.ReadLine(); 
+
+            //Console.WriteLine("Age : ");
+            //int age; 
+            //bool isAgeParsed = int.TryParse(Console.ReadLine() , out age);
+
+            //Console.WriteLine("Salary : ");
+            //double salary;
+            //bool isSalaryParsed = Double.TryParse(Console.ReadLine(), out salary);
+           
+            
+            //Console.Clear();
+            //Console.Beep(37, 120);
+            
+            //Console.WriteLine($"Name : {name}"); 
+            //Console.WriteLine($"Age : {age}"); 
+            //Console.WriteLine($"Salary : {salary}");
+
+
+            #endregion
         }
 
 
