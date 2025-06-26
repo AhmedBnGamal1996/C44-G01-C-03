@@ -9,6 +9,8 @@ namespace SessionThree
 
     internal class Program
     {
+        private static object yyyy;
+
         public Program()
         {
         }
@@ -522,8 +524,39 @@ namespace SessionThree
             //Today's date : 20 / 11 / 2001
             //Today's date : 20 – 11 – 2001
 
+            // The First Answer 
+
+
             //Console.Write("Enter a date (dd/MM/yyyy) or (dd/mm/yyyy) or (dd-mm-yyyy) : ");
-            //DateTime theDate = DateTime.Parse(Console.ReadLine()) ;
+           
+            //checked
+            //{
+            //    DateTime theDate; 
+            //    bool isDate = DateTime.TryParse(Console.ReadLine() , out theDate);
+            //    Console.Clear(); 
+
+            //        if (isDate == true && theDate.GetType() == typeof(DateTime))
+            //        {
+            //            Console.WriteLine($"Today’s date : {theDate:dd,MM,yyyy}");
+            //            Console.WriteLine($"Today’s date : {theDate:dd-MM-yyyy}");
+            //            Console.WriteLine($"Today’s date : {theDate:dd-MM-yyyy}");
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine("The Date is not accepted , please try agian...");
+            //        }
+                
+            //}
+            
+
+
+
+
+            // Another Answer 
+
+            //Console.Write("Enter a date (dd/MM/yyyy) or (dd/mm/yyyy) or (dd-mm-yyyy) : ");
+            //DateTime theDate = DateTime.Parse(Console.ReadLine());
+            //Console.WriteLine(theDate);
 
             #endregion
 
