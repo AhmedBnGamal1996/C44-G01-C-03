@@ -153,6 +153,68 @@ namespace SessionThree
 
             #endregion
 
+            #region Implicit and Explicit Casting
+
+            #region Ex 1 [ int - long ] 
+            // Implicit Casting [ Safe Casting ] 
+            // int x = 1000; // 4bytes 
+            //long y ; // 8bytes
+            //y = x; // Implicit = Safe Casting
+            //Console.WriteLine(y);
+
+
+            // Explicit Casting [ Not Safe Casting ]
+            // Arthmethic OverFlow
+            //checked
+            //{
+            //    long x = 1000;
+            //    int y = (int)x;
+            //    unchecked
+            //    {
+            //        Console.WriteLine(y);
+            //    }
+
+            //}
+            //long x = 100000000000000; 
+            //if (x > int.MaxValue || x < int.MinValue)
+            //{
+            //    Console.WriteLine("An exception hapeened");
+            //}
+            //else
+            //{ 
+            //    int y = (int)x; 
+            //    Console.WriteLine(y);
+            //}
+            //object num = 12348888888888888885; 
+            //if (num.GetType() == typeof(int))
+            //{
+            //    int x = (int)num;
+            //    Console.WriteLine(x);
+            //}
+
+            //else
+            //{
+            //    Console.WriteLine("number is Large");
+            //}
+
+            #endregion
+
+            #region Ex 2 [ int - Float ] 
+            //Implicit int ==> float 
+            //int x = 10; 
+            //float y = x; // Implicit Casting [ Safe ]
+            //Console.WriteLine(y); 
+
+            // Explicit Casting Float ==> int 
+            // float x = 12.55f 
+            //int y = (int)x;
+            //Console.WriteLine(y); // unsafe [ Loss Of Data ]
+
+
+            #endregion
+
+            #endregion
+
 
         }
 
