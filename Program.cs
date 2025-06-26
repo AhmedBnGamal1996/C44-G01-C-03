@@ -439,8 +439,45 @@ namespace SessionThree
             #endregion
 
             #region String Format 
-           
+            //// Equaltion : 
+            //int x = 10, y = 5, result = x + y;
+
+            ////// String Interpolation
+            ////string msg = $"Equation : {x} + {y} = {result} ";  
+            ////Console.WriteLine(msg);
+            ////Console.WriteLine($"Equaltion : {x} + {y} = {result}");
+            ////Console.WriteLine(15);
+            ////Console.WriteLine(true);
+
+            //// Format Function 
+            //string msg = string.Format("Equation : {0} + {1} = {2}", x, y, result); 
+            //    Console.WriteLine(msg);
+
+            //// String Cocatenation [ + ]
+            //// int x = 10, y = 5, result = x + y;
+            //string msg = "equation " + ": " + x + "+" + y + "y" + "= " + result;
+
+            //// Equation 
+            //// Equation :
+            //// Equation :  10  
+            //// Equation :  10 +  
+            //// Equation :  10 + 5  
+            //// Equation :  10 + 5  =  
+            //// Equation :  10 + 5  = 15  
+
+            //Console.WriteLine("Equation : " + x + " + " y + "= " + result);
+
+            //// D:C44--Route\02 C#\SessionThreeGroupTwoSoulation\SessionThree
+            
+            //string filePath = @"D:C44--Route\\02 C#\\SessionThreeGroupTwoSoulation\\SessionThree"
+            //Console.WriteLine(filePath);
+
+            //string msg = "Mariam \t shindy";
+            //Console.WriteLine(msg);
+
             #endregion
+
+
         }
 
 
