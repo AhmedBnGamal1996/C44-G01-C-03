@@ -501,10 +501,10 @@ namespace SessionThree
             #endregion
 
             #region 12-Which of the following statements is correct about the C#.NET code snippet given below?
-            /*
-             * int d; 
-             * d = Convert.ToInt32( !(30 < 20) );
-             */
+                //int d; 
+                //d = Convert.ToInt32( !(30 < 20) );
+                //Console.WriteLine(d);           // A value 1 will be assigned to d  
+             
             #endregion
 
             #region 13-Which of the following is the correct output for the C# code given below?
