@@ -419,9 +419,9 @@ namespace SessionThree
             //float num1 = 10 , num2 = 20  , result = num1*num2 ;
             //Console.WriteLine(result);        // result = 200
 
-                #endregion
+            #endregion
 
-                #region 4-Write C# program that Extract a substring from a given string.
+            #region 4-Write C# program that Extract a substring from a given string.
             //Console.WriteLine("Please write any text");  // hello my friend
             //string sourceString = Console.ReadLine();
             //Console.WriteLine("Please write text search");
@@ -439,7 +439,7 @@ namespace SessionThree
 
 
 
-                #endregion
+            #endregion
 
             #region 5-Write C# program that Assigning one value type variable to another and modifying the value of one variable and mention what will happen
 
@@ -449,7 +449,13 @@ namespace SessionThree
 
             #endregion
 
-            #region 7-Write C# program that take two string variables and print them as one variable 
+            #region 7-Write C# program that take two string variables and print them as one variable
+            //Console.WriteLine("Please write FisrtName");
+            //string firstName = Console.ReadLine();
+            //Console.WriteLine("Please write LastName");
+            //string lastName = Console.ReadLine();
+            //string result = firstName + lastName ;
+            //Console.WriteLine($"your name is  {result}");
 
             #endregion
 
